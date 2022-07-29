@@ -5,7 +5,7 @@ variable "inst_type" {}
 variable "ami" {}
 
 #elastic ip for NAT
-resource "aws_eip" "eip" {
+resource "aws_eip" "elp" {
     vpc = true
 
     tags = {
